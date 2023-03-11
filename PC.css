@@ -1,0 +1,553 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto';
+    list-style: none;
+}
+body {
+    margin: 0 auto;
+    width: 1920px;
+}
+.container {margin: auto; width: 1920px;}
+.head-container {
+    padding-top: 38px;
+    padding-left: 80px;
+    background-image: url(file:///C:/Users/Lenovo/Desktop/WELLPC-master/IMAGE/Head/main-screen__bgc.jpg);
+}
+                        /* Шапка */
+.head  { 
+   display: flex;
+padding-bottom: 190px;
+}
+ul {display: flex; margin: 0; padding: 0;}
+.link {
+    display: inline-block;
+    line-height: 1;
+    margin-right: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.link::after {
+    display: block;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background:  linear-gradient(94.78deg, #DF5950 11.19%, #b310b6 93.72%);
+    transition: width 0.2s ease-in-out;
+}
+.link:hover:after,
+.link:focus:after {
+width: 100%;
+}
+
+
+
+.list-link-head {
+    margin-left: 214px;
+    border: none;
+    width: 183px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 44px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+                /* HEAD-TIMER */
+
+.head-timer {}
+
+
+
+h1 {
+    margin-top: 0;
+    margin-left: 232px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.box-time {
+    text-align: center;
+    display: flex;
+    width: 102px;
+    height: 112px;
+    margin-right: 30px;
+    background: #121212;
+    font-size: 16px;
+    color: rgb(113 113 113);
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 218px;
+}
+small {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+                    /* USER-INFO */
+.head-infoUser {
+    display: flex;
+    padding-left: 312px;
+    background: #121212;
+}
+.userInfo-head {
+    border: none;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-right: 81px;
+    font-size: 16px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    width: 169px; 
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+.userInfo-head:hover {font-size: 18px;}
+            /* ОСНОВА */
+
+main {
+    background-image:url(file:///C:/Users/Lenovo/Desktop/WELLPC-master/IMAGE/bgc.jpg);
+}
+.description {
+    padding-top: 200px;
+    margin-left: 312px;
+}
+.description h2{
+    margin-top: 69px;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.description p{ 
+    margin: 0;
+    width: 636px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.One-box {
+    display: flex;
+}
+.fast-start {
+    margin-top: 200px;
+}
+.fast-start p {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 411px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%; 
+    color: #ffffff;
+}
+.start-boxing {
+width: 324px;
+margin-bottom: 200px;
+}
+.start-boxing h2{
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 0;
+    width: 89px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.start-boxing div{
+    width: 324px;
+    margin-right: 0;
+    height: 80px;
+    background:linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    animation: gradient 3s infinite linear; 
+    background-size: 400%; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+  
+
+.start-boxing p {
+    width: 306px;
+    margin-left: 0;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    display: block;
+    opacity: 0.5;
+}
+
+
+.underTheBlock-f-s {
+
+}
+.underTheBlock-f-s h2{
+    font-weight: 700;
+    margin: 0;
+    font-size: 48px;
+    line-height: 140%;
+    margin-left: 243px;
+    padding-bottom: 120px;
+}
+.flex-box {
+margin-right: 24px;
+padding-bottom: 200px;
+}
+.flex-box div{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 416px;
+    color: #FFFFFF;
+}
+.flex-box p{
+    color: #FFFFFF;
+    opacity: 0.8;
+    display: block;
+    font-weight: 400;
+    width: 358px;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    margin-left: 29px;
+    justify-content: center;
+}
+.flex-box img{
+    margin-left: 158px;
+    margin-bottom: 59px;
+}
+
+.brand p{
+    width: 661px;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 31px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;   
+    color: #FFFFFF;
+}
+.brand {
+    padding-bottom: 153px;
+}
+
+
+.flex-brand-box {
+border-right:  1px solid #ffffff2e;
+padding-top:29px; 
+padding-left: 66px; padding-right: 66px;
+}
+.flex-brand-box img {
+    padding-bottom: 27px;
+    margin-top: -1px;
+}
+.flex-brand {
+width: 1315px;
+border-bottom: 1px solid #ffffff2e;
+display: flex;
+}
+
+
+
+
+
+
+.education {
+margin-left: 281px;
+}
+.education img{
+    margin-left: 280px;
+    /* margin-top: 90px; */
+    }
+
+.education {
+
+}
+
+.logo-anim-img {
+    transition: transform 1s ease-out;
+    animation:  changeTransform 1s infinite;
+}
+/* .logo-anim-img::before {
+    transform: rotate(357deg);
+} */
+@keyframes changeTransform {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(357deg);
+    }
+  }
+
+.education h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    margin-top: 31px;
+    margin-left: 124px;
+}
+.education p{
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    line-height: 160%;
+    margin-top: 30px;
+    color: #FFFFFF;
+    width: 411px;
+    text-align: center;
+    padding-bottom: 84px;
+    margin-left: 161px;
+    opacity: 0.5;
+}
+.education {
+    margin-bottom: 216px;
+}
+
+                    /* schedule */
+
+.schedule {
+display: flex;
+}
+
+.big-line{
+    width: 6px;
+    height: 677px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+} 
+.flex-schedule {
+    width: 364px;
+   display: flex;
+   margin-bottom: 95px;
+}
+
+.flex-schedule p{
+    padding: 0;
+    margin: 0;
+    width: 304px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 160%;
+    display: block;
+    text-align: right;
+    color: #FFFFFF;  
+    opacity: 0.5;
+}
+.line {
+    margin-top: 51px;
+    border-bottom: 1px solid #ffffff85;
+    display: block;
+    width: 40px;
+    opacity: 0.3;
+    transform: rotate(180deg);
+} 
+
+.flex-schedule div div{
+    margin: 0;
+    margin-left: 76px;
+    padding: 0;
+    margin-right: 20px;
+    width: 228px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+
+.flex-basement {
+    display: flex;
+    padding-bottom: 200px;
+}
+.box-base {
+    width: 416px;
+    margin-right: 24px;
+}
+.box-base img{
+    margin: 0;
+    margin-left: 113px;
+    margin-bottom: 40px;
+}
+.box-base h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    width: 416px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.box-base p{
+    margin: 0;
+    width: 358px;
+    margin-left: 29px;
+    margin-bottom: 47px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgb(255 255 255 / 64%);
+    opacity: 0.8;
+}
+.box-base a{
+    margin-left: 136px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 143px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background 0.1s ease-out;
+}
+.box-base a:hover{
+    background: #fefefe24;
+}
+
+
+
+
+
+.bottom-description {
+
+}
+.bottom-description h3{
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: 374px;
+}
+.bottom-description p{
+    margin: 0;
+    margin-left: 442px;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    line-height: 160%;
+    width: 411px;
+    margin-bottom: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.email-mas input{
+    margin: 0;
+    display: block;
+    border: none;
+    width: 353px;
+    color: white;
+    font-size: 18px;
+    height: 42px;
+    padding-left: 30px;
+    background: #ffffff43;
+    border-radius: 50px 0px 0px 50px;
+}
+input {
+    outline: 0 !important;
+}
+.email-mas a button{
+    margin-left: -53px;
+    border: none;
+    width: 160px;
+    height: 44px;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    outline: none;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+
+
+
+
+.email-mas{
+    display: flex;
+    margin-left: 402px;
+}
+.link-bot-mas {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+.link-bot-mas img{
+    width: 24px;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.bottom-description ul li {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50%;
+}
+.figma {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 534px;
+    display: block;
+    width: 411px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
